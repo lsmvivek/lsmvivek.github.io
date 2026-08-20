@@ -50,8 +50,9 @@ h2 { font-size:clamp(2.1rem,3.8vw,3.7rem); }
 .output-list strong { font:500 24px Fraunces,Georgia,serif; letter-spacing:-.025em; }
 .output-list em { color:var(--muted); font-size:13px; font-style:normal; text-align:right; }
 .contact { background:var(--paper); display:flex; justify-content:space-between; gap:80px; }
-.contact h2 { margin:46px 0 0; }
-.contact-details { font-size:16px; min-width:310px; padding-top:42px; }
+.contact h2 { margin:0; }
+.contact-intro { font-size:19px; margin:20px 0 0; max-width:420px; }
+.contact-details { font-size:16px; min-width:310px; padding-top:10px; }
 .contact-details p { margin-bottom:26px; }
 .contact-details p:nth-child(2) { font-family:'DM Mono',monospace; font-size:13px; line-height:1.9; }
 footer { background:var(--ink); color:#c4d0c7; font:11px 'DM Mono',monospace; letter-spacing:.04em; padding:20px max(5vw,28px); }
