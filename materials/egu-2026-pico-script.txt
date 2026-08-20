@@ -1,0 +1,25 @@
+I shall begin with my results.
+
+Slide 1
+- Show point 1
+For reliable predictions, robust models are needed, especially under changing climatic conditions.
+- Show figure
+- Consider the predictions of a correlation based machine learning model of surface soil moisture.
+- The model performs very well in the training with R-square close to 0.9.
+- Show figure
+- But the performance drops sharply when tested during a period of drought.
+- Show point 2
+- To build robust models, We need to identify robust and direct drivers of processes.
+
+Slide 2
+- To do this we used causality.
+- For example a correlation based approach would show air temperature, evaporation and humidity correlated. However only a causation based approach would show that air temperature drives evaporation which drives humidity, which later drives the temperature. 
+- Show text of 4 CD methods
+- In our work we tested four diverse causal discovery algorithms.
+- Show figure.
+- And the results show that causality-based models are more robust than correlation-based models.
+
+Slide 3
+To discuss...
+- What are causal discovery methods, how do different causal methods work, how we evaluated them,
+Please visit our PICO screen A.6
