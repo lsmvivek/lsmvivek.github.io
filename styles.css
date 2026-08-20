@@ -23,13 +23,15 @@ h1 { font-size:clamp(2.8rem,5vw,4.8rem); max-width:780px; }
 .muted { color:var(--muted); }
 .affiliations { border-top:1px solid var(--line); display:flex; flex-wrap:wrap; gap:10px 26px; padding-top:19px; font-size:15px; }
 .statement,.works,.outputs,.contact { border-top:1px solid var(--line); padding:78px max(7vw,40px); }
-.statement { display:grid; gap:70px; grid-template-columns:170px minmax(0,690px); }
+.statement { display:block; }
 .section-label { color:var(--moss); }
 h2 { font-size:clamp(2.1rem,3.8vw,3.7rem); }
 .statement p { font-size:19px; max-width:660px; }
 .statement p + p { color:var(--muted); }
-.section-heading { align-items:baseline; display:flex; justify-content:space-between; margin-bottom:40px; }
+.section-heading { align-items:baseline; display:flex; justify-content:space-between; gap:30px; margin-bottom:40px; }
+.section-heading h2 { margin:0; }
 .text-link { color:var(--moss); font-size:14px; font-weight:700; }
+.subsection-heading { color:var(--muted); font:500 11px 'DM Mono',monospace; letter-spacing:.08em; margin:0 0 20px; text-transform:uppercase; }
 .work-grid { display:grid; gap:30px; grid-template-columns:1fr 1fr; }
 .work-card { border-top:1px solid var(--ink); padding-top:17px; }
 .work-card img { aspect-ratio:1.5; display:block; margin-bottom:22px; object-fit:cover; width:100%; }
