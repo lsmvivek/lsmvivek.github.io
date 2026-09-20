@@ -1,0 +1,6 @@
+# Local OS and editor artifacts
+.DS_Store
+._*
+*~
+*.swp
+*.swo
